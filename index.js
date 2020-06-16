@@ -5,7 +5,7 @@ class Cat {
     this.sex = sex;
   }
    speak(){
-    return `${this.name}  meowwwwwwwwwwww`;
+    return `${this.name} says meow!`;
   }
 }
 
@@ -15,7 +15,7 @@ class Dog {
     this.sex = sex;
   }
    speak(){
-    return `${this.name} woof woof`;
+    return `${this.name} says woof!`;
   }
   
 }
@@ -35,10 +35,10 @@ class Bird{
 }
   
 }
-let  cat = new Cat("Simba", "female");
-let dog = new Dog("Rocco", "male");
+let  cat = new Cat("Sasha", "female");
+let dog = new Dog("Rufio", "male");
 let bird = new Bird("Pablo", "male");
-let bird2 = new Bird("lulu", "female");
+let bird2 = new Bird("Mable", "female");
  cat.speak();
  dog.speak();
  bird.speak();
