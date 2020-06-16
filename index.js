@@ -35,7 +35,7 @@ class Bird{
 }
   
 }
-let  cat = new Cat("lulu", "female");
+let  cat = new Cat("Simba", "female");
 let dog = new Dog("", "male");
 let bird = new Bird("Pablo", "male");
 let bird2 = new Bird("Mable", "female");
